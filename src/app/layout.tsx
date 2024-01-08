@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+     
+      <body className={inter.className}>
+      <link href="https://fonts.gstatic.com/s/capriola/v14/wXKoE3YSppcvo1PDlk_1JeESnA.woff2" rel="stylesheet" />
+        {children}</body>
     </html>
   )
 }
