@@ -160,8 +160,6 @@ export default function Home() {
                 notes:
             </label>
             <textarea
-                type="textarea"
-                rows="4"
                 id="notes"
                 name="notes"
                 placeholder="Leave important notes"
