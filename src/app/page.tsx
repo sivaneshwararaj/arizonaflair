@@ -1,8 +1,12 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+'use client'
+ 
+import { usePathname } from 'next/navigation'
 
 export default function Home() {
-  
+    const pathname = usePathname()
+
   // Function to get the current date in "YYYY-MM-DD" format
   const getCurrentDate = () => {
       const today = new Date()
@@ -68,7 +72,7 @@ export default function Home() {
                 type="hidden"
                 name="_redirect"
                 // here you have to paste link, where do you want to lead your users to
-                value="./"
+                value={usePathname()}
             />
             <label  style={{ marginBottom: "8px" }}>
                 Name:
