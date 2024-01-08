@@ -30,3 +30,7 @@ font-family: "Capriola", "Capriola Placeholder", sans-serif;
     font-family: "Graduate", "Graduate Placeholder", serif;
     
 }
+
+.underline{
+    text-decoration: underline;
+}
