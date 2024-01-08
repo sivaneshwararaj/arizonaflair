@@ -25,27 +25,32 @@ export default function Home() {
 <main>
   <div className='nav'><h1 className='text'>Arizona Flair</h1></div>
   <div className='text1'><h1>Rent a waving tube man</h1></div>
-  <div  className='centeralign'>
-  <div><img src='./gif.gif' alt='no image found'></img></div>
-  <div>
-    <div></div>
+  <div  className='centeralign flexbox'>
+  <div><img src='./gif.gif' alt='no image found' className='imgsize'></img></div>
+  <div className='colorcontainer'>
+    <div><h2 className='bottomspace'><span className='text-center text-[30px] font-bold ff1 underline '>KEY FEATURES </span></h2></div>
     <div>
       <ul>
-  <li>Eye-catching Advertising: Grab attention with our 8ft waving tube man.</li>
-  <li>Versatile Usage: Perfect for parties, events, and promoting businesses.</li>
-  <li>Increased Visibility: Attracts customers and creates curiosity.</li>
-  <li>Fun and Exciting: Adds joy and entertainment to any occasion.</li>
-  <li>Durable Construction: Made from rip-resistant nylon with UV protection.</li>
-  <li>Easy to Set Up: Hassle-free inflation and secure installation.</li>
-  <li>Customizable Options: Add your logo and personalized elements.</li>
-  <li>Cost-effective Advertising: High impact at a budget-friendly price.</li>
+  <li className='spacing'><span className='font-bold '>Eye-catching Advertising:</span><p> Grab attention with our 8ft waving tube man.</p></li>
+  <li className='spacing'><span className='font-bold '>Versatile Usage:</span><p> Perfect for parties, events, and promoting businesses.</p></li>
+  <li className='spacing'><span className='font-bold '>Increased Visibility:</span> <p>Attracts customers and creates curiosity.</p></li>
+  <li className='spacing'><span className='font-bold '>Fun and Exciting:</span> <p>Adds joy and entertainment to any occasion.</p></li>
+  <li className='spacing'><span className='font-bold '>Durable Construction:</span> <p>Made from rip-resistant nylon with UV protection.</p></li>
+  <li className='spacing'><span className='font-bold '>Easy to Set Up:</span> <p>Hassle-free inflation and secure installation.</p></li>
+  <li className='spacing'><span className='font-bold '>Customizable Options:</span><p> Add your logo and personalized elements.</p></li>
+  <li className='spacing'><span className='font-bold '>Cost-effective Advertising:</span> <p>High impact at a budget-friendly price.</p></li>
 </ul>
 </div>
   </div>
   </div>
-<div>
-<form
-            action="https://submit-form.com/n0wxzeNIO"
+ 
+  <div className='centercontainer'>
+  <h1>Rent Now</h1>
+ 
+<div className='formalign'>
+
+<form 
+            action="https://submit-form.com/X6cAMD7Xl"
             style={{
                 display: "flex",
                 flexDirection: "column",
@@ -82,7 +87,7 @@ export default function Home() {
                     borderRadius: "4px",
                 }}
             />
-            <label for="email" style={{ marginBottom: "8px" }}>
+            <label  style={{ marginBottom: "8px" }}>
                 Email:
             </label>
             <input
@@ -99,7 +104,7 @@ export default function Home() {
                     borderRadius: "4px",
                 }}
             />
-            <label for="phonenumber" style={{ marginBottom: "8px" }}>
+            <label  style={{ marginBottom: "8px" }}>
                 Phone Number:
             </label>
             <input
@@ -117,7 +122,7 @@ export default function Home() {
                 }}
             />
 
-            <label for="fromDate" style={{ marginBottom: "8px" }}>
+            <label  style={{ marginBottom: "8px" }}>
                 From Date:
             </label>
             <input
@@ -134,7 +139,7 @@ export default function Home() {
                     borderRadius: "4px",
                 }}
             />
-            <label for="toDate" style={{ marginBottom: "8px" }}>
+            <label  style={{ marginBottom: "8px" }}>
                 Till Date:
             </label>
             <input
@@ -151,7 +156,7 @@ export default function Home() {
                     borderRadius: "4px",
                 }}
             />
-            <label for="notes" style={{ marginBottom: "8px" }}>
+            <label style={{ marginBottom: "8px" }}>
                 notes:
             </label>
             <textarea
@@ -196,6 +201,7 @@ export default function Home() {
                 }}
             />
         </form>
+</div>
 </div>
 </main>
   )

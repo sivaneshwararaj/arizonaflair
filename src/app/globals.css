@@ -1,11 +1,17 @@
+
+  
 *{
 margin: 0%;
 padding: 0%;
+font-family: Capriola;
 }
 .nav{
 background-color: #111827;
 height: 72px;
 font-family: "Capriola", "Capriola Placeholder", sans-serif;
+}
+.bottomspace{
+    padding-bottom: 20px;
 }
 .text{
     color: white;
@@ -20,17 +26,91 @@ font-family: "Capriola", "Capriola Placeholder", sans-serif;
 .centeralign{
     align-items: center;
     text-align: center;
-}
-.yellowcontainer{
-    background-color: yellow;
     
-    border-radius:4px;
+    
+    
+}
+.colorcontainer{
+    background-color: #F8B567;
+    width: 600px;
+    height: 500px;
+    
+    
 }
 .headline{
     font-family: "Graduate", "Graduate Placeholder", serif;
     
 }
+.imgsize{
+width: 500px;
+height: 500px;
+}
 
 .underline{
     text-decoration: underline;
 }
+.flexbox{
+    display: flex;
+    align-content: flex-start;
+    justify-content:center;
+    
+}
+.formalign{
+    display: flex;
+    align-items: flex-end;
+
+    
+}
+.centercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+ul{
+    list-style-type:none
+}
+.font-bold {
+    font-weight: 700;
+}
+
+.text-\[30px\] {
+    font-size: 30px;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+.ff1 {
+    font-family: 'Graduate', cursive;
+}
+.spacing{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+    /* Add your styles for smaller screens here */
+    .imgsize{
+        width: 300px;
+        height: 300px;
+    }
+    .flexbox{
+        display: block;
+    }
+    .colorcontainer{
+        width: 300px;
+        height: auto;
+        align-items: center;
+    justify-content: center;
+    display: inline-block;
+    }
+  }
+  
+  /* Styles for page size above 1300px */
+  @media only screen and (min-width: 1300px) {
+    /* Add your styles for larger screens here */
+  }
