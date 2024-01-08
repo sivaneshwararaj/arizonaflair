@@ -72,7 +72,7 @@ export default function Home() {
                 type="hidden"
                 name="_redirect"
                 // here you have to paste link, where do you want to lead your users to
-                value={usePathname()}
+                value="https://arizonaflair.com/"
             />
             <label  style={{ marginBottom: "8px" }}>
                 Name:
