@@ -166,6 +166,7 @@ export default function Home() {
                 name="notes"
                 placeholder="Leave important notes"
                 required
+                
                 style={{
                     width: "100%",
                     padding: "16px",
