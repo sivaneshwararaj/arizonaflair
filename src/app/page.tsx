@@ -70,7 +70,7 @@ export default function Home() {
                 // here you have to paste link, where do you want to lead your users to
                 value="https://massive-months-717280.framer.app/conformation"
             />
-            <label for="name" style={{ marginBottom: "8px" }}>
+            <label  style={{ marginBottom: "8px" }}>
                 Name:
             </label>
             <input
